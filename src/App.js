@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
-import Coin from './Coin';
-import MyFooter from './MyFooter';
+import Coin from './components/Coin';
+import MyFooter from './components/MyFooter';
 
 
 function App() {
