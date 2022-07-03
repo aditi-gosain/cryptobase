@@ -3,6 +3,7 @@ import axios from 'axios';
 import './App.css';
 import Coin from './components/Coin';
 import MyFooter from './components/MyFooter';
+import CoinHeader from './components/CoinHeader';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <input type="text" placeholder="Search" className="coin-input" onChange={handleChange}/>
         </form>
       </div>
+      <CoinHeader/>
       {filteredCoins.map(coin => {
         return (
           <Coin key={coin.id} 
